@@ -1,0 +1,248 @@
+header{
+	margin-bottom: 20px;
+}
+.btn{
+	transition: .2s ease all;
+}
+.table{
+	background-color: #fff;
+}
+.table th{
+	background-color: #f3f3f3;
+}
+
+
+.block {
+}
+.block .block-inner{
+	/*width: 1000px;*/
+	/*height: 1000px;*/
+	/*background-image: url(/storage/images/block1.jpg);*/
+	margin: 20px auto;
+	position: relative;
+}
+.signup-table table img{
+	width: 100px;
+}
+.machine-table table img{
+	width: 50px;
+}
+.block .block-cols{
+	/*background-image: url("background.jpg");*/
+	/*background-image: url('/storage/images/add.png');*/
+	background-size: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position: absolute;
+	/*overflow: hidden;*/
+	padding: 2px;
+}
+.block.block-edit .block-cols{
+	background-image: url("/storage/images/add.png");
+}
+/*.block .block-cols {
+	background-image: none;
+}*/
+.block .block-cols  i{
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 24px;
+	padding: 10px 9px;
+	color: #ccc;
+}
+.block .block-cols .add-profile {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.block .block-cols .view-profile span {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.remove-profile {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.80);
+	transition: .2s ease all;
+}
+.remove-profile span{
+	color: #fff;
+	position: absolute;
+	font-size: 24px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+.block .block-cols:hover .remove-profile {
+	display: block;
+}
+
+/*.block .block-cols:before{
+	content: '\f067';
+	font-family: 'FontAwesome';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	display: inline-block;
+}*/
+
+
+.table-actions .btn{
+	font-size: 18px;
+}
+
+.user-edit h3{
+	margin-top: 0;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ccc;
+}
+.user-edit form{
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.user-edit img{
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+header .navbar-inverse {
+    border-radius: 0;
+}
+header .dropdown-menu > li > a{
+	padding: 8px 20px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 15px;
+	background-color: #222;
+	color: #fff;
+}
+footer p{
+	margin: 0;
+	padding: 10px 0;
+}
+.view-profile-modal img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.block .view-profile  > div{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.block .view-profile > div:before{
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 1;
+	top: 15px;
+	left: 40px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.block .view-profile > div.Windows7:before{
+	background-image: url(/storage/images/Windows7.jpg);
+}
+.block .view-profile > div.Windows8:before{
+	background-image: url(/storage/images/Windows8.jpg);
+}
+.block .view-profile > div.Windows10:before{
+	background-image: url(/storage/images/Windows10.jpg);
+}
+.block .view-profile > div.Linux:before{
+	background-image: url(/storage/images/Linux.jpg);
+}
+.block .view-profile > div.MAC:before{
+	background-image: url(/storage/images/MAC.jpg);
+}
+.block .view-profile > div.WindowsXP:before{
+	background-image: url(/storage/images/windowsxp.jpg);
+}
+
+.search-employee-inner{
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+.search-employee-inner h3{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.search-employee-inner .btn{
+	width: 100%;
+}
+
+.add-emp-form{
+	padding: 0 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.add-emp-form h3,
+.search-employee-inner h3{
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.login-error{
+	text-align: center;
+	margin: 10px 0;
+	font-weight: bold;
+	color: red;
+}
+
+.main-block .main-block-inner{
+	text-align: center;
+}
+.main-block .main-block-inner img{
+	max-height: 350px;
+	margin: 0 auto;
+}
+
+#blockModal #emp_image img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+	margin: 0 auto;
+	border-radius: 4px;
+	/*border: 2px solid #ccc;*/
+	/*padding: 2px;*/
+}
